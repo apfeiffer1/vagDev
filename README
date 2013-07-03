@@ -4,9 +4,7 @@
 A simple project to ease the setting up of development VMs for the
 CMS conditions (and possible other environments) using vagrant. 
 
-Coordinated via one branch per architecture (and possibly later topic).
-
-   git clone -b slc6 https://github.com/apfeiffer1/vagDev.git slc6
+   git clone https://github.com/apfeiffer1/vagDev.git 
    cd slc6
    vagrant up
    vagrant ssh
