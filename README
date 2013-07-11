@@ -4,10 +4,16 @@
 A simple project to ease the setting up of development VMs for the
 CMS conditions (and possible other environments) using vagrant. 
 
-   git clone https://github.com/apfeiffer1/vagDev.git 
-   cd slc6
-   vagrant up
-   vagrant ssh
+To get the initial "bare box", use the following command:
+
+	vagrant box add --insecure slc6-jul13  https:/cmssdt.cern.ch/SDT/slc6-base-jul13.box
+
+Then, to use this for your testing set ups, do:
+
+   	git clone https://github.com/apfeiffer1/vagDev.git 
+   	cd vagDev/slc6
+   	vagrant up
+   	vagrant ssh
 
 should be all you need to set up a devbox and use it. 
 
